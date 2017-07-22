@@ -17,26 +17,37 @@ Input Border Bottom (Focus): #967343
 
 Fonts:
 font-family: 'Roboto', sans-serif;
-font-family: 'Lora', serif;
-*/
+font-family: 'Lora', serif;*/
+
 
 * {
-  background-color: #F2F1E8;
+  /*background-color: #F2F1E8; this was not ideal as it set the background for every element on the page*/
   margin: 0;
 }
 
+body {
+  background-color: #F2F1E8;
+  /*margin-left: 20px;*/
+}
+
 .header-nav {
-  /*width: 1200px;*/
+
 }
 
 nav {
   background: #FFFFFF;
   width: 100%;
   height: 60px;
+  position: fixed;
+  margin-top: -100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items:center;
+}
+
+.company-name {
+  margin-top: 100px;
 }
 
 .nav-links {
@@ -67,12 +78,12 @@ h1, h2 {
 
 h1 {
   font-weight: 600;
-  font-size: 3em;
+  font-size: 3.5em;
   margin: 35px 0 10px 0;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: 100;
   margin: 0 0 15px 0;
 }
@@ -82,7 +93,7 @@ img {
 }
 
 main {
-  width: 800px;
+  width: 1100px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -93,6 +104,7 @@ main {
 section.products {
   /*flex-basis: 15%;*/
   /*display: flex;*/
+  margin-bottom: 10px;
 }
 
 #product1 {
@@ -100,7 +112,7 @@ section.products {
   background: url("./images/product-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 456px;
+  flex-basis: 60%;
   /*padding-top: 250px;*/
 }
 #product2 {
@@ -108,7 +120,7 @@ section.products {
   background: url("./images/product-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 152px;
+  flex-basis: 20%;
 }
 
 #product3 {
@@ -116,7 +128,7 @@ section.products {
   background: url("./images/product-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 152px;
+  flex-basis: 20%;
 }
 
 #product4 {
@@ -124,7 +136,7 @@ section.products {
   background: url("./images/product-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 152px;
+  flex-basis: 20%;
 }
 
 #product5 {
@@ -132,7 +144,7 @@ section.products {
   background: url("./images/product-5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 152px;
+  flex-basis: 20%;
 }
 
 #product6 {
@@ -140,7 +152,7 @@ section.products {
   background: url("./images/product-6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 304px;
+  flex-basis: 40%;
 }
 
 #product7 {
@@ -148,11 +160,39 @@ section.products {
   background: url("./images/product-7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 152px;
+  flex-basis: 20%;
+}
+
+.image-text-flex1 {
+  /*display: flex;*/
+  position: fixed;
+  padding-top: 180px;
+  /*top: 10px;*/
+  /*height: 250px;*/
+  /*flex-direction: column;*/
+  /*align-items: flex-end;*/
+}
+
+.image-text-flex2 {
+  /*display: flex;*/
+  /*position: fixed;*/
+  padding-top: 130px;
 }
 
 .image-text {
-  color: white;
-  display: flex;
+  font-family: 'Lora', serif;
+  color: #F2F1E8;
+  background: rgb(32,36,29);
+  padding: 10px;
+  width
+  /*display: flex;*/
   /*padding-top: 250px;*/
+}
+
+footer {
+  font-family: 'Lora', serif;
+  padding: 20px;
+  margin-top: 10px;
+  background: rgb(32,36,29);
+  color: #F2F1E8;
 }
