@@ -1,5 +1,5 @@
 /*
-Color Palette:
+-------COLOR PALETTE------:
 Background: #F2F1E8
 Text: #131511
 Inline Link: #968772
@@ -15,10 +15,11 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 
-Fonts:
+----------FONTS----------:
 font-family: 'Roboto', sans-serif;
 font-family: 'Lora', serif;*/
 
+/*--------PAGE STYLES--------*/
 
 * {
   /*background-color: #F2F1E8; this was not ideal as it set the background for every element on the page*/
@@ -27,10 +28,9 @@ font-family: 'Lora', serif;*/
 
 body {
   background-color: #F2F1E8;
-  /*margin-left: 20px;*/
 }
 
-/*HEADER & NAVIGATION STYLES*/
+/*------HEADER & NAVIGATION STYLES------*/
 
 header {
   background: #FFFFFF;
@@ -91,10 +91,6 @@ h2 {
   font-size: 2em;
   font-weight: 100;
   margin: 0 0 15px 0;
-}
-
-img {
-  /*width: inherit;*/
 }
 
 main {
@@ -193,6 +189,8 @@ section.products {
   /*display: flex;*/
   /*padding-top: 250px;*/
 }
+
+/* -------FOOTER STYLES-------*/
 
 .footer-width {
   width: 100%;
