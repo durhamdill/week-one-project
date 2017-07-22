@@ -67,6 +67,10 @@ blockquote {
   margin: 20px;
 }
 
+a {
+  color: #968772;
+}
+
 /*------ SHARED HEADER & NAVIGATION STYLES------*/
 
 header {
@@ -236,9 +240,10 @@ footer p {
 
 /* --------ABOUT PAGE STYLES------- */
 
-main.about-main {
+.about-main {
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .about-main section {
@@ -255,6 +260,23 @@ main.about-main {
   width: 150px;
   /*float: left;*/
   margin: 0 20px 10px 0;
+}
+
+#grow-section {
+  /*width: none !important;*/
+  height: 250px;
+  /*margin-top: -20px;*/
+  /*position: relative;*/
+  background-attachment: fixed;
+  background-image: url("images/background-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+#grow-section > h1 {
+  color: #F2F1E8;
+  padding: 100px 0;
 }
 
 aside {
