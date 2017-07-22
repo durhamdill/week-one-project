@@ -5,7 +5,7 @@ Text: #131511
 Inline Link: #968772
 Inline Link (Hover): #967343
 Navigation Background: #FFFFFF
-Navigation Text: #2B2F26
+Navigation Text: #968772
 Navigation Text (Hover): #CD5D67
 Navigation Text (Active) #968772
 Button Background: #968772
@@ -63,12 +63,19 @@ nav {
   align-items:center;
 }
 
-.nav-links {
-  background: inherit;
-  color: #2B2F26;
+a.nav-link {
+  color: #131511;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   flex-basis: 10%;
+}
+
+a.nav-link:hover {
+  color: red;
+}
+
+a #nav-current {
+  color: #968772;
 }
 
 .company-name {
