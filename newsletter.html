@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div id="welcome-wrapper">
+    <div id="newsletter-wrapper">
 
       <header>
         <div class="nav-width">
@@ -27,16 +27,38 @@
 
         <p>Stay up to date with events, activities, news and specials.</p>
 
-        <label for="nameInput">Name:</label>
-        <input type="text" name="name" id="nameInput" value="">
+        <div class="form-field">
+          <label for="nameInput">Name</label>
+          <input type="text" name="name" id="nameInput" value="">
+        </div>
 
-        <label for="emailInput">Email:</label>
-        <input type="email" name="email" id="emailInput" value="">
+        <div class="form-field">
+          <label for="emailInput">Email</label>
+          <input type="email" name="email" id="emailInput" value="">
+        </div>
 
-        <button type="button" name="submit">Submit</button>
+        <div class="submit">
+          <input id="signupButton" type="submit" name="submit" value="Submit"></input>
+        </div>
 
       </form>
 
+      <script type="text/javascript">
+        var nameInput = document.getElementById('nameInput');
+        var emailInput = document.getElementById('emailInput');
+        var signupButton = document.getElementById('signupButton');
+        signupButton.addEventListener('click', function(e) {
+          var nameVal = nameInput.value;
+          var emailVal = emailInput.value;
+          if (nameVal && emailVal) {
+            alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+            nameInput.value = "";
+            emailInput.value = "";
+          } else {
+            alert('We would love for you to sign up, please provide both your name and email address.');
+          }
+        });
+      </script>
 
 
   </body>
