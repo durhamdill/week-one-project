@@ -168,6 +168,7 @@ section.products {
   background: url("./images/product-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top left -3em;
   flex-basis: 19.2727272727%;
 }
 
@@ -176,6 +177,7 @@ section.products {
   background: url("./images/product-5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top left -2em;
   flex-basis: 19.2727272727%;
 }
 
@@ -184,6 +186,7 @@ section.products {
   background: url("./images/product-6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   flex-basis: 39.4545454545%;
 }
 
@@ -192,6 +195,7 @@ section.products {
   background: url("./images/product-7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top left -1em;
   flex-basis: 19.2727272727%;
 }
 
@@ -308,7 +312,9 @@ tr.even {
 /* -----NEWSLETTER STYLES----- */
 
 #newsletter-wrapper {
-  height: 600px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-image: url("images/background-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
