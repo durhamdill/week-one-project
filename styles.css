@@ -223,6 +223,13 @@ section.products {
   /*padding-top: 250px;*/
 }
 
+.image-text:hover {
+  background: #967343;
+  color: #FFFFFF;
+  padding-left: 20px;
+  transition-duration: 1s;
+}
+
 /* -------FOOTER STYLES-------*/
 
 .footer-width {
@@ -295,6 +302,10 @@ aside > p {
   line-height: 1.75em;
 }
 
+#facilities-link:hover {
+  color: #CD5D67;
+}
+
 /* ----Table Styles---- */
 
 table {
@@ -349,6 +360,10 @@ form > p {
   color: gray;
 }
 
+/*input:focus {
+  border-bottom: 1.5px solid #967343;
+}*/
+
 input {
   border: none;
   outline: none;
@@ -364,4 +379,8 @@ input {
   text-align: center;
   color: #FFFFFF;
   font-size: 16px;
+}
+
+#signupButton:hover {
+  background: #CD5D67;
 }
