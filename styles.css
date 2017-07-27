@@ -223,6 +223,8 @@ section.products {
   /*padding-top: 250px;*/
 }
 
+/*reference for transition duration: https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration*/
+
 .image-text:hover {
   background: #967343;
   color: #FFFFFF;
