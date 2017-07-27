@@ -280,6 +280,7 @@ footer p {
   height: 250px;
   /*margin-top: -20px;*/
   /*position: relative;*/
+  /*found info and examples for parallax effect at this site: https://www.w3schools.com/howto/howto_css_parallax.asp*/
   background-attachment: fixed;
   background-image: url("images/background-3.jpg");
   background-size: cover;
